@@ -1,0 +1,22 @@
+/**
+	使用css3设置列的数量和列的宽度
+*/
+main {
+	/*column-width: 12em;*/
+	column-count: 3;
+}
+
+/**
+*	设置列宽及样式
+*/
+main{
+	column-gap: 2em;
+	column-rule: thin dotted #999;
+}
+
+/**
+	设置p元素的块的周边距离，不然会出现空行的情况
+*/
+main p {
+	margin: 0;
+}
