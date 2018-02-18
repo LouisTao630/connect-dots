@@ -1,0 +1,12 @@
+main div{
+	max-width: 20em;
+	max-height: 5em;
+	background-color: pink;
+}
+
+main div {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	white-space: nowrap;
+}
