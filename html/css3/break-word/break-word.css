@@ -1,12 +1,36 @@
-main div{
-	max-width: 20em;
-	max-height: 5em;
-	background-color: pink;
+/**
+ * 设置P元素的宽度小于用来显示的单词的宽度。
+ */
+
+main p {
+    max-width: 5em;
+    background-color: pink;
+    white-space: nowrap;
 }
 
-main div {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	word-wrap: break-word;
-	white-space: nowrap;
+/**
+ * 当单词超过宽度时候，使用此声明可以在字中间截断。
+ */
+
+main p {
+    word-wrap: break-word;
+}
+
+/**
+ * 设置宽度超过部分直接用其它字符代替
+ */
+
+main p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/**
+ * 设置滚动条的出现
+ */
+
+main p {
+    overflow-x: auto;
+    overflow-y: hidden;
 }
